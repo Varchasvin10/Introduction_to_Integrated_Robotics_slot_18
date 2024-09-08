@@ -47,7 +47,7 @@ Open Terminal and run the below commands:
    
 2. **Cloning this Repository**
    ```bash
-   git clone
+   git clone https://github.com/Varchasvin10/Introduction_to_Integrated_Robotics_slot_18.git
    ```
    
 3. **Building your workspace**
