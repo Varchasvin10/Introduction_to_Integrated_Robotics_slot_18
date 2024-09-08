@@ -21,6 +21,7 @@ Refer this link:
 https://docs.ros.org/en/humble/Installation.html
 
 ### Gazebo 
+Open terminal and run:
 ```bash
 sudo apt-get install gazebo11
 ```
@@ -36,6 +37,8 @@ rviz2
 ```
 
 ## Robot Simulation
+
+Open Terminal and run the below commands:
 
 1. **Creating your workspace**
    ```bash
