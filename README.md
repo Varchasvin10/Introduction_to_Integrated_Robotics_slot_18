@@ -50,7 +50,8 @@ Open Terminal and run the below commands:
    cd ~/iir_ws/src
    git clone https://github.com/Varchasvin10/Introduction_to_Integrated_Robotics_slot_18.git
    ```
-   
+   FOLLOW THE STEPS TOLD BY SME'S HERE!!
+
 3. **Building your workspace**
    ```bash
    cd
