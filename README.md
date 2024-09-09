@@ -58,7 +58,13 @@ Open Terminal and run the below commands:
    colcon build
    ```
 
-4. **Running Rviz and Gazebo Simulation**
+   Usually there wont be robot localization node downloaded.
+   We can download it using this command
+   ```bash
+   sudo apt-get install ros-humble-robot-localization
+   ```
+
+5. **Running Rviz and Gazebo Simulation**
    First we have to source our workspace:
    ```bash
    source install/setup.bash
@@ -72,7 +78,7 @@ Open Terminal and run the below commands:
    ros2 launch iir gz.launch.py
    ```
 
-5. **Using Teleop keys to control the simulated robot**
+6. **Using Teleop keys to control the simulated robot**
    ```bash
    ros2 run teleop_twist_keyboard teleop_twist_keyboard
    ```
