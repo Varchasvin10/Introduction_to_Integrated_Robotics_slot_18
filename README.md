@@ -47,6 +47,7 @@ Open Terminal and run the below commands:
    
 2. **Cloning this Repository**
    ```bash
+   cd ~/iir_ws/src
    git clone https://github.com/Varchasvin10/Introduction_to_Integrated_Robotics_slot_18.git
    ```
    
