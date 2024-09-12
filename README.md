@@ -150,6 +150,10 @@ Open up terminal and run the following command:
    ros2 run micro_ros_setup build_agent.sh
    ```
 
+### Installing micro_ros for arduino ide:
+Refer to this link:
+https://github.com/micro-ROS/micro_ros_arduino/releases
+
 ### Running Micro ros agent on the ESP32:
 
 Connect the esp32 to your device and run this command:
