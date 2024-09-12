@@ -36,6 +36,10 @@ Usualy installed with ROS2 packages, run the command below to check:
 rviz2
 ```
 
+### Installing ESP32 package in Arduino IDE
+Refer this link:
+https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/
+
 ## Robot Simulation
 
 Open Terminal and run the below commands:
@@ -84,3 +88,73 @@ Open Terminal and run the below commands:
    ros2 run teleop_twist_keyboard teleop_twist_keyboard
    ```
 
+## Integrating ESP32 with ROS2 Humble
+
+### Micro ROS Installation:
+
+Open up terminal and run the following command:
+
+1. Source the workspace:
+   ```bash
+   source /opt/ros/humble/setup.bash
+   ```
+
+2. Edit ~/.bashrc:
+   ```bash
+   gedit ~/.bashrc
+   ```
+   Add this line in the file:
+   ```bash
+   source /opt/ros/humble/setup.bash
+   ```
+
+3. Create a workspace:
+   ```bash
+   cd
+   mkdir microros_ws
+   cd microros_ws
+   mkdir src
+   ```
+
+4. Clone Micro ROS from github:
+   ```bash
+   cd
+   cd microros_ws/src
+   git clone -b $ROS_DISTRO https://github.com/micro-ROS/micro_ros_setup.git src/micro_ros_setup
+   ```
+
+5. Install rosdep:
+   ```bash
+   cd
+   sudo apt install python3-rosdep2
+   ```
+
+6. Update and Install other dependencies:
+   ```bash
+   sudo apt update && rosdep update
+   rosdep install --from-paths src --ignore-src -y
+   sudo apt-get install python3-pip
+   ```
+
+7. Build micro_ros tool and source them:
+   ```bash
+   cd microros_ws
+   colcon build
+   source install/setup.bash
+   ```
+
+8. Install Micro ROS agent:
+   ```bash
+   ros2 run micro_ros_setup create_agent_ws.sh
+   # Build step
+   ros2 run micro_ros_setup build_agent.sh
+   ```
+
+### Running Micro ros agent on the ESP32:
+
+Connect the esp32 to your device and run this command:
+```bash
+cd microros_ws
+source install/setup.bash
+ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyACM0
+```
