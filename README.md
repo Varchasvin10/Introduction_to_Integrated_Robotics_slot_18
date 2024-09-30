@@ -6,6 +6,9 @@ A repository containing all the materials for the PESU IO course Introduction to
 To dual boot your systems please refer to this youtube link:
 https://www.youtube.com/watch?v=UmPL54WKlaU&ab_channel=Buzz2dayTech
 
+For VirtualBox refer this link:
+https://www.youtube.com/watch?v=v1JVqd8M3Yc&ab_channel=ProgrammingKnowledge
+
 Ubuntu 22.04 iso download link:
 https://releases.ubuntu.com/jammy/
 
