@@ -107,7 +107,7 @@ Open Terminal and run the below commands:
    ros2 launch iir factory.launch.py
    ```
 
-3. **Now we launch the robot in the world**
+3. **Now we spawn the robot in the world**
    ```bash
    ros2 launch iir robot.launch.py
    ```
