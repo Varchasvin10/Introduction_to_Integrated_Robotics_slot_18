@@ -78,15 +78,44 @@ Open Terminal and run the below commands:
    ```bash
    ros2 launch iir display.launch.py
    ```
+   To run only Rviz:
+   ```bash
+   ros2 launch iir rviz.launch.py
+   ```
    To run only Gazebo:
    ```bash
    ros2 launch iir gz.launch.py
    ```
 
-6. **Using Teleop keys to control the simulated robot**
+7. **Using Teleop keys to control the simulated robot**
    ```bash
    ros2 run teleop_twist_keyboard teleop_twist_keyboard
    ```
+
+## Simulation in a world
+
+Open Terminal and run the below commands:
+
+1. **Source our workspace**
+   ```bash
+   cd iir_ws
+   source install/setup.bash
+   ```
+
+2. **Launch the world**
+   ```bash
+   ros2 launch iir factory.launch.py
+   ```
+
+3. **Now we launch the robot in the world**
+   ```bash
+   ros2 launch iir robot.launch.py
+   ```
+
+4. **Using Teleop keys to control the simulated robot**
+   ```bash
+   ros2 run teleop_twist_keyboard teleop_twist_keyboard
+   ```   
 
 ## Integrating ESP32 with ROS2 Humble
 
