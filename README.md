@@ -4,11 +4,12 @@ A repository containing all the materials for the PESU IO course Introduction to
 ## Dual Booting System with Ubuntu 22.04
 
 To dual boot your systems please refer to this youtube link:
-Windows: https://www.youtube.com/watch?v=UmPL54WKlaU&ab_channel=Buzz2dayTech
-Mac: https://www.youtube.com/watch?v=b_tOialCSXE&ab_channel=TheLinuxOS
+https://www.youtube.com/watch?v=UmPL54WKlaU&ab_channel=Buzz2dayTech
 
 For VirtualBox refer this link:
-https://www.youtube.com/watch?v=v1JVqd8M3Yc&ab_channel=ProgrammingKnowledge
+
+Windows: https://www.youtube.com/watch?v=v1JVqd8M3Yc&ab_channel=ProgrammingKnowledge
+Mac: https://www.youtube.com/watch?v=b_tOialCSXE&ab_channel=TheLinuxOS
 
 Ubuntu 22.04 iso download link:
 https://releases.ubuntu.com/jammy/
