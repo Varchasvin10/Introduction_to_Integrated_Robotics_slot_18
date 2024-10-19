@@ -194,5 +194,5 @@ Connect the esp32 to your device and run this command:
 ```bash
 cd microros_ws
 source install/setup.bash
-ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyACM0
+ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB0
 ```
