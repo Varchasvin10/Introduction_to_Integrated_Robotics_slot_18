@@ -196,3 +196,12 @@ cd microros_ws
 source install/setup.bash
 ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB0
 ```
+
+### Running Micro-ros over Wifi and UDP on the ESP32:
+
+Connect the esp32 to a power bank and run the below command:
+```bash
+cd microros_ws
+source install/setup.bash
+ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888
+```
