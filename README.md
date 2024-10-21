@@ -97,7 +97,7 @@ Open Terminal and run the below commands:
    ros2 run teleop_twist_keyboard teleop_twist_keyboard
    ```
 
-## Simulation in a world
+<!--## Simulation in a world
 
 Open Terminal and run the below commands:
 
@@ -120,7 +120,8 @@ Open Terminal and run the below commands:
 4. **Using Teleop keys to control the simulated robot**
    ```bash
    ros2 run teleop_twist_keyboard teleop_twist_keyboard
-   ```   
+   ```  
+   -->
 
 ## Integrating ESP32 with ROS2 Humble
 
